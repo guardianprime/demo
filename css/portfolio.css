@@ -1,0 +1,150 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color1: yellow;
+  --black: black;
+  --backgroundcolor1: rgb(15, 27, 61);
+  --orange1: rgb(255, 68, 0);
+  --green1: rgb(60, 255, 56);
+  --linear1: linear-graient(#bf464b 30%, #8e4a49 40%);
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  background: var(--backgroundcolor1);
+  color: white;
+}
+/* NAV */
+#cont {
+  position: sticky;
+  top: 0;
+  border-bottom: 0.5rem double var(--green1);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 0.7rem;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+}
+li {
+  display: inline-block;
+  margin-inline: 0.7rem;
+}
+.nav-ul > li a {
+  color: white;
+  text-decoration: none;
+  font-size: 3.3rem;
+}
+li a:visited {
+  color: orange;
+}
+li a:hover,
+li a:focus {
+  text-decoration: underline;
+  font-size: larger;
+  transition: 0.5s;
+  color: var(--green1);
+}
+/* IMAGES */
+.img {
+  border-radius: 10px;
+  width: 300;
+}
+figure {
+  margin: 3rem 0 0 6rem;
+}
+
+.project-img {
+  width: 25rem;
+  height: 20rem;
+  border: 2px solid white;
+}
+
+/* SECTIONS */
+section {
+  padding: 2rem;
+  margin: 3rem;
+  border: 3px solid black;
+}
+
+figcaption {
+  text-align: center;
+}
+.intro {
+  font-size: 2em;
+}
+.firstview {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.secondview {
+  width: 100vw;
+  border: 5px solid green;
+}
+
+#secondview :nth-child(1) {
+  margin-top: 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  margin-left: 1.6rem;
+}
+.projects > .p-images p {
+  font-style: italic;
+  text-align: center;
+}
+/* BUTTONS */
+
+button {
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 10px 30rem;
+  background-color: var(--orange1);
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  margin-top: 8rem;
+}
+/*||||||||| UTILITIES||||||||||||||| */
+
+/* --space-- (for paragraphs close to eachother.) */
+.space {
+  margin-bottom: 2rem;
+}
+
+/* style for names  */
+.bandriid {
+  font-style: italic;
+}
+
+/* style for links */
+.link {
+  color: var(--orange1);
+  text-decoration: none;
+  color: white;
+}
+.normal-link {
+  color: var(--orange1);
+  font-size: 4rem;
+}
+
+/* General image style */
+
+/* |||||||||||||||||||||||||||||||||| */

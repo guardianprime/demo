@@ -1,0 +1,43 @@
+/* i created a marker from css copied from freecodecamp*/
+.service-image {
+    width: 900px;
+    height: 100px;
+    border-radius: 5px 40px 40px 5px;
+    border-left:  40px double rgba(0, 0, 0, 0.7);
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.colour1 {
+    box-shadow: 10px 10px 5px rgb(56, 7, 17);
+    background: linear-gradient(rgb(226, 12, 12), rgb(221, 14, 14), rgb(148, 6, 6));
+}
+.colour2 {
+    background: linear-gradient( rgb(0,255,40), rgb(50,250,100), rgb(8, 66, 16));
+    box-shadow:  10px 10px 5px rgb(12, 44, 25);
+}
+.colour3 {
+    background: linear-gradient(rgb(25, 0, 255), rgb(33, 120, 201), rgb(45, 33, 211));
+    box-shadow: 10px 10px 5px;
+}
+.wrap {
+    position: absolute;
+    background-color: white;
+    opacity: 0.2;
+    width: 600px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 24px;
+}
+.margin {
+    margin-top: 40px;
+}
+.text {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* form styling */
+label {
+    display: block;
+    
+}
